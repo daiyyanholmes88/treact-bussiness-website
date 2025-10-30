@@ -4,29 +4,327 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<link rel="stylesheet" href="styles.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,900;1,400;1,700&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-<script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="index.js"></script>
 </head>
-
-<body> 
-    <section id="landing">
+<body>
     <nav>
         <div class="row nav__row">
-         <div class="nav__logo">
-         <img src="./assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="Logo">
+            <div class="nav__logo">
+                <img src="assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="Logo">
+                <span class="brand-name">Treact</span>
+            </div>
+            <div class="nav__links">
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Login</a>
+                <a href="#" class="nav-link-btn">Sign In</a>
+            </div>
         </div>
-        <div class="modal__links">
-            <a class="modal__link">About</a>
-            <a class="modal__link">Blog</a>
-            <a class="modal__link">Pricing</a>
-            <a class="modal__link">Contact Us</a>
-            <button class="modal__link modal__link--primary">Sign Up</button>
+    </nav>
+    <section id="landing">
+        <div class="container landing__container">
+            <div class="row landing__row">
+                <div class="landing__left">
+                    <h1>Beautiful Templates Reacts<span class="purple"> for you.</span></h1>
+                    <p>Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
+                    <div class="header__email">
+                        <input type="email" class="header__email--input" placeholder="Your Email">
+                        <button class="btn btn--primary header__email--btn">Get Started</button>
+                    </div>
+                    <img src="assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="Customers Logo Strip" class="customers-logo-strip">
+                </div>
+                <div class="landing__right">
+                    <img src="assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="Design Illustration">
+                </div>
+            </div>
         </div>
-    </nav>    
     </section>
 
+    <section id="features">
+        <div class="container">
+            <div class="row__narrow features__row">
+                <div class="features__content">
+                    <h2 class="features-title">Features</h2>
+                    <p class="features-desc">We have Amazing <span class="purple">Service.</span></p>
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <h3 class="feature-item-title">Fast Performance</h3>
+                            <p class="feature-item-desc">Experience lightning-fast load times and smooth interactions.</p>
+                         <img src="assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="Shield Icon">
+                        </div>
+                        <div class="feature-item">
+                            <h3 class="feature-item-title">Secure</h3>
+                            <p class="feature-item-desc">Your data is protected with industry-leading security measures.</p>
+                            <img src="assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" alt="Support Icon">
+                        </div>
+                        <div class="feature-item">
+                            <h3 class="feature-item-title">Responsive Design</h3>
+                            <p class="feature-item-desc">Looks great on any device, from mobile to desktop.</p>
+                            <img src="assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" alt="Customize Icon">
+                        </div>
+                        <div class="feature-item">
+                            <h3 class="feature-item-title">Customizable</h3>
+                            <p class="feature-item-desc">Easily tailor features to fit your unique needs.</p>
+                            <img src="assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="Fast Icon">
+                        </div>
+                        <div class="feature-item">
+                            <h3 class="feature-item-title">24/7 Support</h3>
+                            <p class="feature-item-desc">Get help whenever you need it, day or night.</p>
+                            <img src="assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="Reliable Icon">
+                        </div>
+                        <div class="feature-item">
+                            <h3 class="feature-item-title">Cloud Integration</h3>
+                            <p class="feature-item-desc">Seamlessly connect with your favorite cloud services.</p>
+                            <img src="assets/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" alt="Simple Icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section id="quality">
+            <div class="container">
+                <div class="quality-row">
+                    <div class="quality-text">
+                        <h2 class="quality-title">Quality Work</h2>
+                        <p class="quality-desc">Developed & Designed by <span class="purple">Professionals</span></p>
+                        <p class="quality-lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="btn btn--quality">Learn More</button>
+                    </div>
+                    <div class="quality-right">
+                        <img src="assets/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="Hero Screenshot">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="steps">
+  <div class="container">
+    <div class="steps-row">
+      <div class="steps-left">
+        <img src="assets/hero-screenshot-2.241aac1fbc66db29d873.png" alt="Steps Image">
+      </div>
+      <div class="steps-right">
+        <h2 class="steps-title"><span class="purple">Steps</span></h2>
+        <p class="steps-desc">Easy to<span class="purple"> get started.</span></p>
+        <div class="steps-list">
+  <div class="step-item">
+    <div class="step-number">01</div>
+    <div class="step-content">
+      <h3 class="step-title">Register</h3>
+      <p class="step-desc">Create your account to get started with our platform.</p>
+    </div>
+  </div>
+  <div class="step-item">
+    <div class="step-number">02</div>
+    <div class="step-content">
+      <h3 class="step-title">Download</h3>
+      <p class="step-desc">Choose your preferences and set up your profile.</p>
+    </div>
+  </div>
+  <div class="step-item">
+    <div class="step-number">03</div>
+    <div class="step-content">
+      <h3 class="step-title">Run</h3>
+      <p class="step-desc">Start using all the features and enjoy the experience!</p>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="values">
+  <div class="container">
+    <div class="values-row">
+      <div class="values-left">
+        <h2 class="values-title"><span class="purple">Values</span></h2>
+        <p class="values-desc">We Always abide by our <span class="purple">Principles.</span></p>
+        <p class="values-lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem.</p>
+        <div class="values-list-row">
+  <div class="value-item">
+    <div class="value-side-row">
+      <img src="assets/Dollar-Coin.png" alt="Value Icon" class="value-icon">
+      <div class="value-content">
+        <h3 class="value-title"><span class="purple">Affordable</span></h3>
+        <p class="value-desc">We strive to provide the best value for your investment.</p>
+      </div>
+    </div>
+  </div>
+  <div class="value-item">
+    <div class="value-side-row">
+      <img src="assets/Bag-Suitcase.png" alt="Value Icon" class="value-icon">
+      <div class="value-content">
+        <h3 class="value-title"><span class="purple">Professionalism</span></h3>
+        <p class="value-desc">We are honest and transparent in all our actions.</p>
+      </div>
+    </div>
+  </div>
+</div>
+        <button class="btn btn--values">Learn More</button>
+      </div>
+      <div class="values-left-img">
+        <img src="assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="Values Image">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="Pricing">
+  <div class="container">
+    <h3 class="pricing-title"><span class="purple">Pricing</span></h3>
+    <p class="pricing-desc">Reasonable & flexible<span class="purple"> Pricing</span></p>
+    <p class="pricing-lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem.</p>
+    <div class="pricing-list">
+      <!-- PERSONAL -->
+      <div class="pricing-item personal">
+        <div class="top-line"></div>
+        <h3 class="pricing-title">Personal</h3>
+        <p class="pricing-item-price">$17.99</p>
+        <p class="monthly">Monthly</p>
+        <h4 class="subtitle">For Individuals</h4>
+        <ul class="pricing-features">
+          <li>30 Templates</li>
+          <li>7 Landing Pages</li>
+          <li>12 Internal Pages</li>
+          <li>Basic Assistance</li>
+        </ul>
+        <button class="pricing-btn">BUY NOW</button>
+      </div>
+
+      <!-- BUSINESS -->
+      <div class="pricing-item business">
+        <div class="top-line"></div>
+        <h3 class="pricing-title">Business</h3>
+        <p class="pricing-item-price">$37.99</p>
+        <p class="monthly">Monthly</p>
+        <h4 class="subtitle">For Small Businesses</h4>
+        <ul class="pricing-features">
+          <li>60 Templates</li>
+          <li>15 Landing Pages</li>
+          <li>22 Internal Pages</li>
+          <li>Priority Assistance</li>
+        </ul>
+        <button class="pricing-btn">BUY NOW</button>
+      </div>
+
+      <!-- ENTERPRISE -->
+      <div class="pricing-item enterprise">
+        <div class="top-line"></div>
+        <h3 class="pricing-title">Enterprise</h3>
+        <p class="pricing-item-price">$57.99</p>
+        <p class="monthly">Monthly</p>
+        <h4 class="subtitle">For Large Companies</h4>
+        <ul class="pricing-features">
+          <li>90 Templates</li>
+          <li>27 Landing Pages</li>
+          <li>37 Internal Pages</li>
+          <li>Personal Assistance</li>
+        </ul>
+        <button class="pricing-btn">BUY NOW</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="testimonials">
+  <div class="container">
+    <div class="testimonials-row">
+      <div class="testimonials-left-img">
+        <img src="assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="Love Illustration">
+      </div>
+      <div class="testimonials-https://exchange.bwjtravel.com/u/95b24371right">
+        <h2 class="testimonials-title"><span class="purple">Testimonials</span></h2>
+        <p class="testimonials-desc">Our Clients <span class="purple">Love Us.</span></p>
+        <p class="testimonials-lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem.</p>
+        <div class="stars">
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+          <span class="star">&#9733;</span>
+        </div>
+        <h3 class="testimonials-stars-title">Amazing User Experience</h3>
+        <p class="testimonials-long-lorem">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem. 
+          Praesentium, voluptatum. Doloremque, magni. Quibusdam, voluptates. 
+          Repudiandae, doloribus. Voluptas, provident. 
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quidem.
+        </p>
+        <div class="testimonial-person-row">
+  <img src="assets/photo-1494790108377-be9c29b29330.avif" alt="Testimonial Person" class="testimonials-person-img">
+  <div class="testimonial-person-content">
+    <h4 class="testimonial-person-title">Charlotte Hale</h4>
+    <p class="testimonial-person-desc">Director, Delos Inc.</p>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="footer-lists-row">
+      <ul class="footer-list">
+        <li class="footer-list-title">Main</li>
+        <li>BLOG</li>
+        <li>FAQS</li>
+        <li>Support</li>
+        <li>About Us</li>
+      </ul>
+      <ul class="footer-list">
+        <li class="footer-list-title">Product</li>
+        <li>Log In</li>
+        <li>Personal</li>
+        <li>Bussiness</li>
+        <li>Team</li>
+      </ul>
+      <ul class="footer-list">
+        <li class="footer-list-title">Press</li>
+        <li>logos</li>
+        <li>Events</li>
+        <li>Stories</li>
+        <li>Offices</li>
+      </ul>
+      <ul class="footer-list">
+        <li class="footer-list-title">Team</li>
+        <li>Career</li>
+        <li>Founders</li>
+        <li>Culture</li>
+        <li>Onboarding</li>
+      </ul>
+      <ul class="footer-list">
+        <li class="footer-list-title">Legal</li>
+        <li>GDPR</li>
+        <li>Privacy Policy</li>
+        <li>Terms of Service</li>
+        <li>Disclaimer</li>
+      </ul>
+    </div>
+    <div class="footer-bottom-row">
+      <div class="footer-logo-left">
+        <img src="assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="Logo" class="footer__logo">
+        <span class="footer-logo-text">Treact Inc.</span>
+      </div>
+      <p class="footer__text">© 2023 Treact. All rights reserved.</p>
+      <div class="footer-social-icons">
+        <a href="https://facebook.com" target="_blank" class="footer-icon">
+          <img src="assets/Facebook-logo.svg" alt="Facebook">
+        </a>
+        <a href="https://twitter.com" target="_blank" class="footer-icon">
+          <img src="assets/Logo-Twitter-Circle.svg" alt="Twitter">
+        </a>
+        <a href="https://youtube.com" target="_blank" class="footer-icon">
+          <img src="assets/Youtube-Logo.png" alt="YouTube">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+<style>
+
+</style>
 </body>
 </html>
