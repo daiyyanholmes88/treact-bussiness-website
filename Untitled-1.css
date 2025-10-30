@@ -1,0 +1,33 @@
+/* PERSONAL - bluegreen */
+.personal .top-line { background-color: #00bfae; }
+.personal .pricing-btn {
+  background-color: #00bfae;
+  color: #fff;
+}
+.personal .pricing-btn:hover { background-color: #00a395; }
+
+/* BUSINESS - blue card / white text */
+.business { background-color: #007bff; color: #ffffff; }
+.business .top-line { background-color: #ffffff; }
+.business .pricing-title,
+.business .pricing-item-price,
+.business .monthly,
+.business .subtitle,
+.business .pricing-features li {
+  color: #ffffff;
+}
+.business .pricing-btn {
+  background-color: #ffffff;
+  color: #007bff;
+  font-weight: 800;
+}
+.business .pricing-btn:hover { background-color: #f3f3f3; }
+
+/* ENTERPRISE - red */
+.enterprise .top-line { background-color: #e74c3c; }
+.enterprise .pricing-btn {
+  background-color: #e74c3c;
+  color: #fff;
+}
+.enterprise .pricing-btn:hover { background-color: #c0392b; }
+
