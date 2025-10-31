@@ -1,0 +1,5 @@
+git init daiyyanholmes88 
+git add . My first project completed
+git commit- abdul rahim daiyyan completed
+git remote add origin https://github.com/daiyyanholmes88/my-first-project.git
+git push -https://github.com/daiyyanholmes88/myfirstproject.git (push)
